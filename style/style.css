@@ -1,0 +1,108 @@
+/* css links part start */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* css links part end */
+/* common css part start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+/* common css part end */
+/* banner css part start */
+.banner{
+    text-align: right;
+    background-image: url(../images/banner/banner2.png);
+    padding: 216px 180px 167px 700px;
+    background-repeat: no-repeat;
+}
+.banner-text h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+}
+.banner-text p{
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.btn{
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #F15B22;
+}
+/* banner css part end */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* failure css part start */
+.failures{
+    margin: 130px 50px;
+}
+.failure-part{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.failure-text-part h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failure-text-part p{
+    color: #444343;
+    margin-bottom: 16px;
+}
+.failure-text-part ul li p{
+    margin-bottom: 8px;
+}
+.failure-text-part ul li p i{
+    margin-right: 10px;
+    color: #16D887;
+}
+/* failure css part end */
+/* plans css part start */
+.plans-part{
+    text-align: center;
+    margin-bottom: 125px;
+}
+.plans-head h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plans-icon-text{
+    display: flex;
+    gap: 86px;
+}
+.text-part h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.text-part p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* plans css part end */
