@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .btn{
     border: 0;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 20px 25px;
     font-size: 20px;
     font-weight: 600;
@@ -106,3 +106,66 @@ main{
     color: #737272;
 }
 /* plans css part end */
+/* call now css part start */
+.call-now-part{
+    margin-bottom: 130px;
+    background-image: linear-gradient(to right, hsla(17, 88%, 54%, 0.84), hsla(0, 0%, 100%, 0.189) ), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    padding: 60px 617px 60px 60px;
+}
+.call-now-part h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 34px;
+}
+.call-now-part .btn{
+    background-color: #fff;
+    color: #F15B22;
+}
+/* call now css part end*/
+/* footer css part start */
+.footer-part{
+    background-color: #151414;
+    padding: 130px;
+    display: flex;
+    gap: 331px;
+}
+.footer-text h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-text p{
+    color: #fff;
+    margin-bottom: 24px;
+}
+.footer-icon img{
+    margin-right: 15px;
+}
+.subscribe-text h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 31px;
+}
+.footer-btn-input input{
+    background-color: #151414;
+    border: 2px solid #fff;
+    padding: 22px 158px 22px 22px;
+    border-radius: 8px;
+}
+.footer-btn-input input::placeholder{
+    font-size: 18px;
+    color: #F3F3F3;
+}
+.footer-btn-input .btn{
+    margin-top: 16px;
+    background-color: #fff;
+    color: #F15B22;
+}
+/* footer css part end */
